@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PersonaFren</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="e_mail">E-mail</string>
+    <string name="forgotpwd">忘記密碼</string>
+    <string name="login"><u>登入</u></string>
+    <string name="signup"><u>註冊</u></string>
+    <string name="submit">送出</string>
+
 </resources>
