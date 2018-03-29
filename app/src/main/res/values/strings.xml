@@ -8,5 +8,14 @@
     <string name="login"><u>登入</u></string>
     <string name="signup"><u>註冊</u></string>
     <string name="submit">送出</string>
+    <string name="birthday">生日</string>
+    <string name="grnder">性別</string>
+    <string name="Ok">確定</string>
+    <string-array name="select_gender">
+        <item>性別</item>
+        <item>男性</item>
+        <item>女性</item>
+        <item>秘密</item>
+    </string-array>
 
 </resources>

@@ -41,7 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.Signup:
-                intent.setClass(MainActivity.this, LoginActivity.class);
+                intent.setClass(MainActivity.this, SignUpActivity.class);
                 startActivity(intent);
                 break;
         }
