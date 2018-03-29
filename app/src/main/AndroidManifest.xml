@@ -19,7 +19,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".ForgotPwdActivity" />
         <activity android:name=".PairMainActivity" />
-        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".RaderMainActivity" />
+        <activity android:name=".MeMainActivity"></activity>
     </application>
 
 </manifest>

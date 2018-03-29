@@ -7,13 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class PairMainActivity extends Activity implements View.OnClickListener {
+public class RaderMainActivity extends Activity implements View.OnClickListener {
 
     ImageView goRader,goMe,goPair;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pair_main);
+        setContentView(R.layout.activity_rader_main);
         goRader = (ImageView) findViewById(R.id.goRader);
         goMe = (ImageView) findViewById(R.id.goMe);
         goPair = (ImageView) findViewById(R.id.goPair);
@@ -29,16 +29,17 @@ public class PairMainActivity extends Activity implements View.OnClickListener {
         Intent intent = new Intent();
         switch (view.getId()) {
             case R.id.goRader:
-                intent.setClass(PairMainActivity.this, RaderMainActivity.class);
-                startActivity(intent);
+
                 break;
             case R.id.goMe:
-                intent.setClass(PairMainActivity.this, MeMainActivity.class);
+                intent.setClass(RaderMainActivity.this, MeMainActivity.class);
                 startActivity(intent);
                 break;
             case R.id.goPair:
-
+                intent.setClass(RaderMainActivity.this, PairMainActivity.class);
+                startActivity(intent);
                 break;
         }
     }
+
 }
