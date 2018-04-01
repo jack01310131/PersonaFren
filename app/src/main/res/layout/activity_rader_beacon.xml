@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.personafren.RaderMainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -40,7 +41,7 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/goBeacon"
+        android:id="@+id/goGPS"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -68,26 +69,6 @@
         android:src="@android:drawable/presence_invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/conditionButton" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        android:src="@android:drawable/presence_invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        android:src="@android:drawable/presence_invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <LinearLayout
         android:id="@+id/conditionLayout"
@@ -155,4 +136,5 @@
             android:text="@string/submit" />
 
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
