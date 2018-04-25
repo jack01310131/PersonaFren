@@ -21,7 +21,9 @@
         <activity android:name=".PairMainActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".RaderMainActivity" />
-        <activity android:name=".MeMainActivity"></activity>
+        <activity android:name=".MeMainActivity" />
+        <activity android:name=".TestMainActivity" />
+        <activity android:name=".AbilityPActivity"></activity>
     </application>
 
 </manifest>
