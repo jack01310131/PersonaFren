@@ -17,5 +17,9 @@
         <item>女性</item>
         <item>秘密</item>
     </string-array>
+    <string name="condition">篩選條件</string>
+    <string name="personalInformation">個人資料</string>
+    <string name="personalityTest">人格測驗</string>
+    <string name="details">個人數據</string>
 
 </resources>
